@@ -1,0 +1,29 @@
+
+package:
+  name: zuspec-core
+
+  dep-sets:
+
+  - name: default
+    deps: []
+
+  - name: default-dev
+    deps:
+    - name: dv-flow-mgr
+      url: https://github.com/dv-flow/dv-flow-mgr.git
+    - name: Sphinx
+      src: pypi
+    - name: sphinx-argparse
+      src: pypi
+    - name: sphinxcontrib-makedomain
+      src: pypi
+    - name: sphinxcontrib-openapi
+      src: pypi
+    - name: sphinxcontrib-spelling
+      src: pypi
+    - name: sphinx-rtd-theme
+      src: pypi
+    - name: sphinx-jsonschema
+      src: pypi
+
+
